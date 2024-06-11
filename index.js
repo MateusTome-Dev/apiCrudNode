@@ -1,8 +1,24 @@
-const express = require("express");
-const port = 3000;
+const express = require('express');
 const app = express();
-const router = require("./src/routes/router");
-const cors = require("cors");
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
+const prisma = require('@prisma/client');
+
+app.use(cors());
+app.use(bodyParser.json());
+
+const { PrismaClient } = prisma;
+const prismaClient = new PrismaClient();
+
+// ... API routes ...
+
+app.listen(process.env.PORT, () => {
+  console.log(`Server listening on port ${process.env.PORT}`);
+});
+
+module.exports = app;
 app.use(
   cors({
     methods: ["GET", "POST", "DELETE", "PUT"]
