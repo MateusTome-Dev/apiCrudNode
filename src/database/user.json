@@ -1,0 +1,17 @@
+[
+  {
+    "email": "user@gmail.com",
+    "password": "$2b$05$qgnIaDeHMac8hkLyuNXAMu6sZnrqSj/UC6aaVF4Q1H/ii2H7BqImC",
+    "id": 1
+  },
+  {
+    "email": "a@gmail.com",
+    "password": "$2b$05$5RXOmBba2XeuHkEKffVLx.RRASq/EQiu27yYIvZoxsXeAXkS8rRCy",
+    "id": 2
+  },
+  {
+    "email": "mateustome@gmail.com",
+    "password": "$2b$05$l2d/MrXYCDw6ov7FLYd2FOaAAl30WGsKOe8EaK4t8qq6vU92EkpV2",
+    "id": 3
+  }
+]

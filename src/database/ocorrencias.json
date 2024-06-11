@@ -1,0 +1,47 @@
+[
+  {
+    "datetime": "10/05/2024",
+    "natureza": "teste",
+    "grupo": "teste",
+    "subgrupo": "test",
+    "bairro": "test",
+    "logradouro": "test",
+    "id": 1
+  },
+  {
+    "datetime": "10/05/2024",
+    "natureza": "teste",
+    "grupo": "teste",
+    "subgrupo": "test",
+    "bairro": "test",
+    "logradouro": "test",
+    "id": 2
+  },
+  {
+    "datetime": "10/05/2024",
+    "natureza": "teste",
+    "grupo": "teste",
+    "subgrupo": "test",
+    "bairro": "test",
+    "logradouro": "test",
+    "id": 3
+  },
+  {
+    "datetime": "10/05/2024",
+    "natureza": "teste",
+    "grupo": "teste",
+    "subgrupo": "test",
+    "bairro": "test",
+    "logradouro": "test",
+    "id": 4
+  },
+  {
+    "datetime": "10/05/2024",
+    "natureza": "teste",
+    "grupo": "teste",
+    "subgrupo": "test",
+    "bairro": "test",
+    "logradouro": "test",
+    "id": 5
+  }
+]
