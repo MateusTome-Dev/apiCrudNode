@@ -3,7 +3,6 @@ const port = 3000;
 const app = express();
 const router = require("./src/routes/router");
 const cors = require("cors");
-const prisma = require('@prisma/client');
 app.use(
   cors({
     methods: ["GET", "POST", "DELETE", "PUT"]
