@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./index.js",
-     "vercel-build": "npx prisma generate && npx prisma migrate deploy"
+    "start": "nodemon ./index.js",
+    "postinstall": "prisma generate",
+    "vercel-build": "npx prisma migrate deploy"
   },
   "author": "",
   "license": "ISC",
