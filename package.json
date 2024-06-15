@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./index.js",
-    "vercel-build": "prisma migrate deploy && node index.js"
+    "start": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +15,6 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
-    "prisma": "^4.0.0",
     "nodemon": "^3.1.0"
   }
 }
